@@ -18,10 +18,9 @@ namespace MyConsole2
                         where x.Name == "itemID"
                         select x);
             var first = docu.First();
-            first.Add(new XAttribute("HH", "10"));
-            first.Add(new XElement("tt", "20"));
-
-
+            //first.Add(new XAttribute("HH", "10"));
+            //first.Add(new XElement("tt", "20"));
+            docu.Remove();
 
             xdocument.Save(fileName);
         }
