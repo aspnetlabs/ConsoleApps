@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<items>
+  <item>
+    <itemID HH="10">
+      <tt>20</tt>
+    </itemID>
+    <isGadget>True</isGadget>
+    <name>Star Wars Figures</name>
+    <text1>LukeSkywalker</text1>
+  </item>
+</items>
