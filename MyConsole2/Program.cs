@@ -20,6 +20,9 @@ namespace MyConsole2
             var first = docu.First();
             first.Add(new XAttribute("HH", "10"));
             first.Add(new XElement("tt", "20"));
+
+
+
             xdocument.Save(fileName);
         }
     }
